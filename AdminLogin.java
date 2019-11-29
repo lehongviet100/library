@@ -53,7 +53,7 @@ public class AdminLogin extends JFrame {
 		lblAdminLoginForm.setForeground(Color.GRAY);
 		lblAdminLoginForm.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		
-		JLabel lblEnterName = new JLabel("Enter Name:");
+		JLabel lblEnterNameNew = new JLabel("Enter Name:");
 		
 		JLabel lblEnterPassword = new JLabel("Enter Password:");
 		
@@ -88,7 +88,7 @@ public class AdminLogin extends JFrame {
 						.addGroup(gl_contentPane.createSequentialGroup()
 							.addGap(19)
 							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-								.addComponent(lblEnterName)
+								.addComponent(lblEnterNameNew)
 								.addComponent(lblEnterPassword))
 							.addGap(47)
 							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING, false)
@@ -106,7 +106,7 @@ public class AdminLogin extends JFrame {
 					.addComponent(lblAdminLoginForm)
 					.addGap(26)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
-						.addComponent(lblEnterName)
+						.addComponent(lblEnterNameNew)
 						.addComponent(textField, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
 					.addGap(28)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
