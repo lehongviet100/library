@@ -17,7 +17,7 @@ public static boolean checkBook(String bookcallno){
 public static int save(String bookcallno,int studentid,String studentname,String studentcontact){
 	int status=0;
 	try{
-		Connection con=DB.getConnection();
+		Connection con1=DB.getConnection();
 		
 		status=updatebook(bookcallno);//updating quantity and issue
 		
