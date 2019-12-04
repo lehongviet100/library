@@ -8,7 +8,7 @@ public static int save(String callno,String name,String author,String publisher,
 		Connection con=DB.getConnection();
 		PreparedStatement ps=con.prepareStatement("insert into books(callno,name,author,publisher,quantity) values(?,?,?,?,?)");
 		ps.setString(1,callno);
-		ps.setString(2,name);
+		ps.setString(6,name);
 		ps.setString(3,author);
 		ps.setString(4,publisher);
 		ps.setInt(5,quantity);
