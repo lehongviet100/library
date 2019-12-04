@@ -32,7 +32,7 @@ public class IssueBookForm extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					frame = new IssueBookForm();
+					frame = new IssueBookFormfdfdf();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
